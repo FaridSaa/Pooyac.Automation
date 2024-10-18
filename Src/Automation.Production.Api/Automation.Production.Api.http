@@ -1,0 +1,6 @@
+@Automation.Production.Api_HostAddress = http://localhost:5246
+
+GET {{Automation.Production.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
